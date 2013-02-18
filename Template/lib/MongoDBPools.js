@@ -65,7 +65,7 @@ var DBPools = function DBPools() {
 		});
 	}
 
-	init();
+	//init();
 	return this;
 }
 
