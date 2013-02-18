@@ -48,3 +48,6 @@
 {"level":"info","message":"mongo DB connectionInfo : IP:127.0.0.1 Port:27017","timestamp":"2013-02-15T09:01:31.971Z"}
 {"level":"info","message":"HTTP running at http://127.0.0.1:20080 Mode:production","timestamp":"2013-02-15T09:01:32.110Z"}
 {"level":"info","message":"Mongo DB connection success","timestamp":"2013-02-15T09:01:32.127Z"}
+{"level":"info","message":"mongo DB connectionInfo : IP:222.122.169.120 Port:27017","timestamp":"2013-02-18T05:45:49.494Z"}
+{"level":"info","message":"HTTP running at http://127.0.0.1:20080 Mode:development","timestamp":"2013-02-18T05:45:49.788Z"}
+{"level":"info","message":"Mongo DB connection success","timestamp":"2013-02-18T05:45:49.798Z"}

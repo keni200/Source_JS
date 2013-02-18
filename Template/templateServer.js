@@ -9,7 +9,11 @@
 // external module
 async = require('async');
 var cluster = require('cluster');
-ServerReleaseOption = 'production';
+
+// 해당 옵션으로 서버 모드 설정 ( Debug , Release )
+// Debug : development
+// Release : production
+ServerReleaseOption = 'development';
 
 if ( cluster.isMaster ) { 
 	console.log('NODE_ENV=' + ServerReleaseOption);
@@ -55,7 +59,7 @@ else
 	var bodyParserExt = require('./lib/bodyParserExt.js');	
 	makeResponse = require('./lib/makeResponse.js');
 	ErrorCode = require('./config/errorcode.js').ErrorCode;
-	mongoDBPool = require('./lib/dbpools.js');
+	mongoDBPool = require('./lib/mongoDBPools.js');
 	util = require('./lib/util.js');
 
 	init_http();

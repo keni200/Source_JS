@@ -1,13 +1,11 @@
-chachachasvr - chachacha server for node.js 
-==========================================
 
-다함게 차차차 서버! 
+Template for Node.JS
 
 Structure 
 -----------
 
 	- 구조
-	/chachachasvr.js	 (메인)
+	/template.js	 (메인)
 		main... router
 
 	/config (설정)
